@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin-top: 20px;
@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -81,8 +81,11 @@ div {
     border-bottom-width: 2px;
     border-right-width: 0px;
     border-top-width: 0px;
-    color:#000000;
     border-color: #FFFFFF;
+}
+
+.yellow p {
+    color: #000000;
 }
 
 .green {
@@ -108,4 +111,5 @@ footer p{
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0px;
 }
